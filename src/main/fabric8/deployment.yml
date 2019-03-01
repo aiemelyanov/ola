@@ -9,3 +9,5 @@ spec:
       - env:
          - name: JAVA_OPTIONS
            value: "-Xmx256m"
+         - name: DB_NAME
+           value: "TEST1"           

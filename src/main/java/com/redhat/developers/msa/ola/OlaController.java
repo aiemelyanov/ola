@@ -44,10 +44,10 @@ public class OlaController {
 
     @CrossOrigin
     @RequestMapping(method = RequestMethod.GET, value = "/ola", produces = "text/plain")
-    @ApiOperation("Returns the greeting in Portuguese")
+    @ApiOperation("Returns the default prompt before checking url")
     public String ola() {
         String hostname = System.getenv().getOrDefault("HOSTNAME", "Unknown");
-        return String.format("Local Qtrade Olá blah blah blah de %s", hostname);
+        return String.format("Preparing to check connection %s", hostname);
     }
 
     @CrossOrigin
