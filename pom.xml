@@ -19,7 +19,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.redhat.developers.msa.ola</groupId>
-	<artifactId>ola</artifactId>
+	<artifactId>ping_status</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
