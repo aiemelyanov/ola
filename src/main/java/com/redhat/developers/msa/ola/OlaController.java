@@ -47,7 +47,7 @@ public class OlaController {
     @ApiOperation("Returns the greeting in Portuguese")
     public String ola() {
         String hostname = System.getenv().getOrDefault("HOSTNAME", "Unknown");
-        return String.format("Olá de %s", hostname);
+        return String.format("Qtrade Olá blah blah blah de %s", hostname);
     }
 
     @CrossOrigin
