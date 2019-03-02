@@ -31,7 +31,7 @@ import io.opentracing.contrib.spring.web.autoconfig.WebTracingConfiguration;
 @Configuration
 public class TracingConfiguration {
     private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(TracingConfiguration.class);
-    private static final String SERVICE_NAME = "ola";
+    private static final String SERVICE_NAME = "ping-status";
 
     @Bean
     public Tracer tracer() {

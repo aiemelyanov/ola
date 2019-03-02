@@ -27,7 +27,7 @@ public class SwaggerConfiguration {
 
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder()
-            .title("Ola microservices REST API")
+            .title("ping-status microservices REST API")
             .description("Operations that can be invoked in the ola microservices")
             .contact(new Contact("Red Hat Developers", "http://developers.redhat.com", "developer@redhat.com"))
             .license("Apache License Version 2.0")

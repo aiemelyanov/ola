@@ -43,7 +43,7 @@ public class OlaController {
     private HolaService holaService;
 
     @CrossOrigin
-    @RequestMapping(method = RequestMethod.GET, value = "/ola", produces = "text/plain")
+    @RequestMapping(method = RequestMethod.GET, value = "/ping-status", produces = "text/plain")
     @ApiOperation("Returns the default prompt before checking url")
     public String ola() {
         String hostname = System.getenv().getOrDefault("HOSTNAME", "Unknown");
