@@ -148,7 +148,7 @@
 	</dependencies>
 
 	<build>
-		<finalName>ola</finalName>
+		<finalName>ping_status</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
@@ -164,7 +164,7 @@
 							<all>
 								<property>
 									<name>app</name>
-									<value>ola</value>
+									<value>ping_status</value>
 								</property>
 								<property>
 									<name>hystrix.enabled</name>
